@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Counter from "./counter";
 
-class Counters extends Component {
+export default class Counters extends Component {
   render() {
     return (
       <div>
@@ -23,5 +23,3 @@ class Counters extends Component {
     );
   }
 }
-
-export default Counters;

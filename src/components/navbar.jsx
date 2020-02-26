@@ -4,7 +4,7 @@ const Navbar = props => {
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        Navbar{" "}
+        Cart{" "}
         <span className="badge badge-pill badge-secondary">
           {props.uniqueCount}
         </span>

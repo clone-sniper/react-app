@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Counter extends Component {
+export default class Counter extends Component {
   style = {
     fontSize: "50px",
     fontWeight: "bold"
@@ -36,9 +36,6 @@ class Counter extends Component {
         >
           X
         </button>
-
-        {/* {this.state.tag.length !== 0 && "There are tags"}
-        {this.renderTags()}  */}
       </div>
     );
   }
@@ -54,4 +51,3 @@ class Counter extends Component {
     return count === 0 ? 0 : count;
   }
 }
-export default Counter;
